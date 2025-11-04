@@ -12,7 +12,7 @@ def consultar_ca(numero_ca):
     if not numero_ca.isdigit():
         return {"erro": "CA deve ser um número"}, 400
 
-    url = f"https://consultaca.com/{numero_ca}"
+   url = f"https://consultaca.com.br/{numero_ca}"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
